@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <div class="sidebarTitle">
+                    <div class="sidebarLogo">
+                        <img src="images/odin-lined.png" alt="logo" srcset="">
+                    </div>
+                    <div class="sidebarText">
+                        ODIN
+                    </div>
+                </div>
+                <div class="photoSign">
+                    Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="contentText">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deppest dreams. Sign up <em>now</em> to get started.</p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+                <form action="" class="contentForm">
+                    <fieldset>  
+                        <p>Let's do this!</p>
+                        <ul>
+                            <li>
+                                <label for="firstname">First name</label>
+                                <input type="text" id="firstname" name="firstname" required minlength="3" maxlength="15">
+                                <div class="help">Please enter a valid name</div>
+                            </li>
+                            <li>
+                                <label for="lastname">Last name</label>
+                                <input type="text" id="lastname" name="lastname" minlength="3" maxlength="15">
+                                
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="help">Please enter correct email</div>
+                            </li>
+                            <li>
+                                <label for="tel">Phone number</label>
+                                <input type="tel" id="tel" name="phone_number">
+                            </li>
+                            <li>
+                                <label for="pwd">Password</label>
+                                <input type="password" id="pwd" name="password" required minlength="4">
+                                <div class="help">Shoud be at least 4 symbols long</div>
+                                <div class="ps">Passwords don't match</div>
+                            </li>
+                            <li>
+                                <label for="pwdC">Confirm password</label>
+                                <input type="password" id="pwdC" required>
+                                <div class="help">Please confirm your password</div>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <div class="contentText">
+                        <button type="submit" id="submit">Create Account</button>
+                        <p>Already have and account? <a href="#">Log in</a></p>    
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+ 
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
