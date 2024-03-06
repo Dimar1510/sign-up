@@ -18,7 +18,7 @@ function validateForm(e) {
         match = false;
     } 
     if (form.checkValidity() && match) {
-      alert("Tnx!")
+      alert("Account created!")
     } 
     else {
         e.preventDefault();
